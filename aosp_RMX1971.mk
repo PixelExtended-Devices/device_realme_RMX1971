@@ -12,6 +12,14 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# PixelExtended Official Stuff
+PEX_BUILD_TYPE := OFFICIAL
+PEX_MAINTAINER := KSSRAO
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
 PRODUCT_NAME := aosp_RMX1971
